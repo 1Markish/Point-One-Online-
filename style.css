@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50% ),url(./IMAGES/img2.jpg) ;
+    background-size: cover;
+}
+
+#logo{
+    color: #57e389;
+    font-size: 40px;
+    font-family: 'Lobster Two', cursive;
+    margin-left: 100px ;
+    float: left;
+}
+
+#toolbar{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    font-size: 20px;
+    margin-left: 130px;
+    margin-top: 30px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    transition: 0.5s ease-in-out; 
+}
+
+ul li a:hover{
+    color: #57e389;
+}
+
+
